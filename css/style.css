@@ -44,7 +44,7 @@ body {
   
   .header-content .logo {
     height: 220px;
-    width: 2200px;
+    width: 220px;
   }
   
   .title {
@@ -120,7 +120,7 @@ body {
     }
   
     .header-content .text {
-      display: none;
+      display: block;
     }
     
     .grid-3, .grid-2 {
@@ -128,8 +128,13 @@ body {
     }
   
     .services div {
-      padding: 1.4rem 1rem;
+      padding: 1rem 1rem;
     }
+
+    .title {
+      font-size: 1.5rem;
+    }
+
   }
   
   /* Landscape */
@@ -139,5 +144,8 @@ body {
     }
     .header-content {
       top: 0;
+    }
+    .title {
+      font-size: 5rem;
     }
   }
